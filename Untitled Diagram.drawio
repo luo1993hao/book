@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T12:28:02.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.0" etag="7XjcanNKbP735k1HUlFK" type="github"><diagram id="qeRyTDy3Ht95BO6KELww">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-13T13:14:54.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WOICHC-stfH9QmV73ciE" version="20.3.0" type="github">
+  <diagram id="qeRyTDy3Ht95BO6KELww" name="Page-1">
+    <mxGraphModel dx="946" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="334" y="70" width="126" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--2" value="DefaultSqlSession.selectOne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="260" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--3" value="DefaultSqlSession.selectList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="360" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--4" value="executor.query()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="460" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--5" value="CachingExecutor.query()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="560" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--7" value="二级缓存是否有值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="650" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--9" value="BaseExecutor.query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="760" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--10" value="一级缓存是否有值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="850" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--11" value="具体的子类executor.doquery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="950" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--13" value="一级缓存中做缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hhuKmdsQ-2CclMmIQT--14" value="二级缓存中做缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1130" width="183" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
